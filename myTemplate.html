@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="myStyles.css">
+</head>
+<body>
+    <div class="main">
+    <img src="myImages/image1.png" alt="WooliesX Logo"><h1>WooliesX Recipies</h1>
+    
+    <div id="filterOptions">
+        Filter by:
+      <button class="btn active" onclick="filterSelection('all')"> All</button>
+      <button class="btn" onclick="filterSelection('vegan')"> Vegan</button>
+      <button class="btn" onclick="filterSelection('vegetarian')"> Vegetarian</button>
+      <button class="btn" onclick="filterSelection('pescatarian')"> Pescatarian</button>
+      <a class="favRecipe" href="recipeDetails.html">My Favourite Recipes</a>
+    </div>
+    
+    <div class="row myContent">
+    </div>
+</div>
+
+<script src="myScript.js"></script>
+</body>
+</html>
